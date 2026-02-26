@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INP - Angel & Selinda</title>
+    <style>
+        /* Estilos base para que se vea bien en celular */
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 0;
+            display: block; /* Asegura que se pueda hacer scroll */
+        }
+
+        .main-wrapper {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .card {
+            background-color: white;
+            border: 4px solid #ff69b4;
+            border-radius: 15px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .section {
+            padding: 15px;
+            border-bottom: 2px solid #fff0f5;
+        }
+
+        .section-title {
+            color: #d63384;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-bottom: 2px solid #ff69b4;
+            margin-bottom: 15px;
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        /* Fotos */
+        .profile-box {
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+
+        .photo-frame {
+            width: 110px;
+            height: 140px;
+            border: 3px solid #ff69b4;
+            border-radius: 10px;
+            object-fit: cover;
+            background-color: #eee;
+        }
+
+        .data-text {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .quote-box {
+            background-color: #fff9fb;
+            padding: 12px;
+            border-left: 5px solid #ff69b4;
+            margin-top: 10px;
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #444;
+        }
+
+        .couple-img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #ff69b4;
+            margin-top: 10px;
+        }
+
+        /* REGLAS COMPLETAS */
+        .category-header {
+            background-color: #d63384;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+            display: block;
+            font-size: 0.95rem;
+        }
+
+        .rule-block {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ffe4e1;
+        }
+
+        .rule-title {
+            color: #d63384;
+            font-weight: bold;
+            display: block;
+            font-size: 0.95rem;
+            margin-bottom: 4px;
+        }
+
+        .rule-desc {
+            margin: 0;
+            font-size: 0.9rem;
+            text-align: left;
+            line-height: 1.4;
+        }
+
+        .footer {
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="card">
+            <div class="header">Instituto Nacional de Parejas</div>
+
+            <div class="section">
+                <span class="section-title">DATOS DEL NOVIO</span>
+                <div class="profile-box">
+                    <img src="foto_novio.jpg" class="photo-frame">
+                    <div class="data-text">
+                        <b>Nombre:</b> Angel Jared Samaniego Lago<br>
+                        <b>Apodo:</b> Pichurris<br>
+                        <b>Edad:</b> 18 años<br>
+                        <b>Nacimiento:</b> 28/08/2007
+                    </div>
+                </div>
+                <div class="quote-box">"Gracias por todo que haces por mí, yo te juro estar para ti hoy, mañana y siempre sin importar la situación."</div>
+            </div>
+
+            <div class="section">
+                <span class="section-title">DATOS DE LA NOVIA</span>
+                <div class="profile-box">
+                    <img src="foto_novia.jpg" class="photo-frame">
+                    <div class="data-text">
+                        <b>Nombre:</b> Selinda Abigail Parapi Tenezaca<br>
+                        <b>Apodo:</b> Cuchi Cuchi<br>
+                        <b>Edad:</b> 19 años<br>
+                        <b>Nacimiento:</b> 18/10/2006
+                    </div>
+                </div>
+                <div class="quote-box">"Desde que llegaste a mi vida, cada día se siente más especial. Tu sonrisa ilumina mis momentos más oscuros amor."</div>
+            </div>
+
+            <div class="section">
+                <span class="section-title">DATOS DE LA RELACIÓN</span>
+                <div class="data-text">
+                    <b>Lugar de encuentro:</b> Colegio Gral. Eloy Alfaro Delgado<br>
+                    <b>Tipo de relación:</b> Noviazgo<br>
+                    <b>Fecha de inicio:</b> 22/12/2023
+                </div>
+                <img src="foto_pareja.jpg" class="couple-img">
+            </div>
+
+            <div class="section">
+                <span class="section-title">REGLAS DE RELACIÓN</span>
+
+                <span class="category-header">Fundamentos de Comunicación y Respeto</span>
+                <div class="rule-block">
+                    <span class="rule-title">1. Honestidad radical, pero con tacto:</span>
+                    <p class="rule-desc">Decir la verdad siempre, pero buscando las palabras que construyan, no que destruyan.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">2. La regla de las 24 horas:</span>
+                    <p class="rule-desc">Si algo molesta, no dejar pasar más de un día sin hablarlo. El resentimiento es el cáncer de las parejas.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">3. Discutir para solucionar, no para ganar:</span>
+                    <p class="rule-desc">El objetivo de un conflicto es entenderse, no tener la razón. Nunca usar debilidades del otro como arma.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">4. Cero insultos:</span>
+                    <p class="rule-desc">Por muy fuerte que sea la pelea, el respeto verbal es una línea roja que nunca se cruza.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">5. Espacio personal sagrado:</span>
+                    <p class="rule-desc">Fomentar que cada uno tenga sus propios hobbies, amigos y tiempo a solas. La individualidad nutre la unión.</p>
+                </div>
+
+                <span class="category-header">Convivencia y Vida Social</span>
+                <div class="rule-block">
+                    <span class="rule-title">1. Validación emocional:</span>
+                    <p class="rule-desc">Nunca decir "estás exagerando" o "no es para tanto". Si a uno le duele, al otro le importa.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">2. Prioridad ante terceros:</span>
+                    <p class="rule-desc">Los problemas de pareja se resuelven en casa. No ventilar intimidades con amigos o familiares sin consentimiento.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">3. Uso del celular:</span>
+                    <p class="rule-desc">Estar presentes cuando estén juntos. Establecer momentos "libres de pantallas", especialmente durante las comidas o citas.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">4. Cortesía diaria:</span>
+                    <p class="rule-desc">No dar por sentado al otro. Un "gracias", un "buenos días" y un "te ves bien" mantienen viva la chispa.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">5. Apoyo en público:</span>
+                    <p class="rule-desc">Las correcciones o desacuerdos se hablan en privado; en público, son un equipo unido.</p>
+                </div>
+
+                <span class="category-header">Intimidad y Afecto</span>
+                <div class="rule-block">
+                    <span class="rule-title">6. Consentimiento entusiasta:</span>
+                    <p class="rule-desc">En la intimidad, un "no" es un no, y un "no estoy segura" también es un no. Todo debe ser deseado por ambos.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">7. Exploración sin juicios:</span>
+                    <p class="rule-desc">Crear un espacio seguro para compartir fantasías o deseos sin miedo a ser criticados.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">8. Calidad sobre cantidad:</span>
+                    <p class="rule-desc">Priorizar la conexión emocional y el placer mutuo sobre la frecuencia del acto.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">9. Cuidado de la vulnerabilidad:</span>
+                    <p class="rule-desc">Lo que se comparte en la cama (secretos, inseguridades, cuerpos) es sagrado y confidencial.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">10. Mantenimiento del romance:</span>
+                    <p class="rule-desc">No dejar de "cortejarse". Tener al menos una cita formal a la semana o cada quince días.</p>
+                </div>
+
+                <span class="category-header">Crecimiento y Futuro</span>
+                <div class="rule-block">
+                    <span class="rule-title">1. Metas compartidas e individuales:</span>
+                    <p class="rule-desc">Celebrar los logros del otro como si fueran propios.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">2. Finanzas claras:</span>
+                    <p class="rule-desc">Si comparten gastos, establecer una comunicación transparente sobre el dinero para evitar tensiones.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">3. Aprender el "lenguaje del amor" del otro:</span>
+                    <p class="rule-desc">No todos amamos igual. Descubrir si tu pareja prefiere palabras, actos de servicio, regalos, tiempo de calidad o contacto físico.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">4. Perdón real:</span>
+                    <p class="rule-desc">Si se decide perdonar algo, no se vuelve a sacar en futuras discusiones como reclamo.</p>
+                </div>
+                <div class="rule-block">
+                    <span class="rule-title">5. Revisión de contrato:</span>
+                    <p class="rule-desc">Sentarse de vez en cuando a preguntarse: "¿Cómo estamos? ¿Hay algo que debamos cambiar?".</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                Nota importante: Estas reglas funcionan mejor cuando se personalizan. Lo más importante es la comunicación.<br><br>
+                <b style="color: #d63384;">❤️ 2026/2027 ❤️</b>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
